@@ -1,0 +1,53 @@
+{
+  "name": "scar",
+  "display_name": "Scar (The Lion King)",
+  "categories": {
+    "greeting": {
+      "sounds": [
+        { "file": "ScarGreeting1.mp3", "line": "I'm surrounded by idiots." },
+        { "file": "ScarGreeting2.mp3", "line": "Be prepared." },
+        { "file": "ScarGreeting3.mp3", "line": "Yes. Well, forgive me for not leaping for joy." }
+      ]
+    },
+    "acknowledge": {
+      "sounds": [
+        { "file": "ScarAcknowledge1.mp3", "line": "Precisely." },
+        { "file": "ScarAcknowledge2.mp3", "line": "I know." },
+        { "file": "ScarAcknowledge3.mp3", "line": "Well, I was first in line." }
+      ]
+    },
+    "complete": {
+      "sounds": [
+        { "file": "ScarComplete1.mp3", "line": "And so it is." },
+        { "file": "ScarComplete2.mp3", "line": "Perfect." },
+        { "file": "ScarComplete3.mp3", "line": "Long live the king." },
+        { "file": "ScarComplete4.mp3", "line": "Precisely." }
+      ]
+    },
+    "error": {
+      "sounds": [
+        { "file": "ScarError1.mp3", "line": "Life's not fair, is it?" },
+        { "file": "ScarError2.mp3", "line": "You have no idea." }
+      ]
+    },
+    "permission": {
+      "sounds": [
+        { "file": "ScarPermission1.mp3", "line": "What do you want?" },
+        { "file": "ScarPermission2.mp3", "line": "Oh, must I?" },
+        { "file": "ScarPermission3.mp3", "line": "Well?" }
+      ]
+    },
+    "resource_limit": {
+      "sounds": [
+        { "file": "ScarLimit1.mp3", "line": "Run away, and never return." }
+      ]
+    },
+    "annoyed": {
+      "sounds": [
+        { "file": "ScarAnnoyed1.mp3", "line": "I'm ten times the king Mufasa was!" },
+        { "file": "ScarAnnoyed2.mp3", "line": "I'm surrounded by idiots." },
+        { "file": "ScarAnnoyed3.mp3", "line": "You dare come back?!" }
+      ]
+    }
+  }
+}
