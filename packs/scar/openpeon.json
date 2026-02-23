@@ -1,0 +1,76 @@
+{
+  "cesp_version": "1.0",
+  "name": "scar",
+  "display_name": "Scar (The Lion King)",
+  "version": "1.0.0",
+  "author": { "name": "chikingsley", "github": "chikingsley" },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/LifesNotFair.mp3", "label": "Life's not fair, is it?" },
+        { "file": "sounds/BigBrotherDescending.mp3", "label": "Why, if it isn't my big brother descending from on high" },
+        { "file": "sounds/SurroundedByIdiots.mp3", "label": "I'm surrounded by idiots" },
+        { "file": "sounds/WhatDoYouWant.mp3", "label": "And you, what do you want?" },
+        { "file": "sounds/HeavyHeartAssumeThrone.mp3", "label": "It is with a heavy heart that I assume the throne" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/Precisely.mp3", "label": "Precisely" },
+        { "file": "sounds/OhGoody.mp3", "label": "Oh, goody" },
+        { "file": "sounds/LionsShare.mp3", "label": "As far as brains go, I got the lion's share" },
+        { "file": "sounds/BetterGoGetHim.mp3", "label": "Well, I'd better go get him" },
+        { "file": "sounds/WouldntDreamOfChallenging.mp3", "label": "I wouldn't dream of challenging you" },
+        { "file": "sounds/IAmTheKing.mp3", "label": "I am the king" }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/TheresAGoodLad.mp3", "label": "There's a good lad" },
+        { "file": "sounds/OurLittleSecret.mp3", "label": "And remember, it's our little secret" },
+        { "file": "sounds/MarvelousSurprise.mp3", "label": "Your father has a marvelous surprise for you" },
+        { "file": "sounds/WouldntBeASurprise.mp3", "label": "If I told you, it wouldn't be a surprise, now would it?" },
+        { "file": "sounds/OutOfTheAshes.mp3", "label": "Out of the ashes, we shall rise to greet the dawning of a new era" },
+        { "file": "sounds/ToDieFor.mp3", "label": "It's to die for" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/SurroundedByIdiots.mp3", "label": "I'm surrounded by idiots" },
+        { "file": "sounds/WhatHaveYouDone.mp3", "label": "Simba, what have you done?" },
+        { "file": "sounds/RunAwaySimba.mp3", "label": "Run away, Simba" },
+        { "file": "sounds/RunAwayNeverReturn.mp3", "label": "Run, run away and never return" },
+        { "file": "sounds/AnythingButThat.mp3", "label": "Anything but that" },
+        { "file": "sounds/NaughtyBoy.mp3", "label": "You are such a naughty boy" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/DespiseGuessingGames.mp3", "label": "I despise guessing games" },
+        { "file": "sounds/SlippedMyMind.mp3", "label": "Must have slipped my mind" },
+        { "file": "sounds/ThatWasToday.mp3", "label": "That was today?" },
+        { "file": "sounds/PracticeMyCurtesy.mp3", "label": "I shall practice my curtesy" },
+        { "file": "sounds/DontTurnYourBack.mp3", "label": "Perhaps you shouldn't turn your back on me" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/ShallowEndGenePool.mp3", "label": "I'm afraid I'm at the shallow end of the gene pool" },
+        { "file": "sounds/NotLeapingForJoy.mp3", "label": "Forgive me for not leaping for joy. Bad back, you know" },
+        { "file": "sounds/DeepPersonalLoss.mp3", "label": "For me, it is a deep, personal loss" },
+        { "file": "sounds/NeverBeKing.mp3", "label": "I shall never be king" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/QuiverWithFear.mp3", "label": "Oh, I quiver with fear" },
+        { "file": "sounds/TemperTemper.mp3", "label": "Temper, temper" },
+        { "file": "sounds/NoNoNoNo.mp3", "label": "No, no, no, no, no, no, no" },
+        { "file": "sounds/DoLightenUp.mp3", "label": "Oh, Zazu, do lighten up" },
+        { "file": "sounds/NeverSeeLight.mp3", "label": "You shall never see the light of another day" }
+      ]
+    }
+  }
+}

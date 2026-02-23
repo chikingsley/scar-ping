@@ -411,6 +411,15 @@ for p in data.get('packs', []):
     SOURCE_PATH="$pack"
   fi
 
+  # Check for local pack first (in repo's packs/ directory)
+  if [ -n "$SCRIPT_DIR" ] && [ -f "$SCRIPT_DIR/packs/$pack/openpeon.json" ]; then
+    cp "$SCRIPT_DIR/packs/$pack/openpeon.json" "$INSTALL_DIR/packs/$pack/"
+    if [ -d "$SCRIPT_DIR/packs/$pack/sounds" ]; then
+      cp "$SCRIPT_DIR/packs/$pack/sounds/"*.{wav,mp3,ogg} "$INSTALL_DIR/packs/$pack/sounds/" 2>/dev/null || true
+    fi
+    continue
+  fi
+
   # Construct base URL for this pack's files
   if [ -n "$SOURCE_PATH" ]; then
     PACK_BASE="https://raw.githubusercontent.com/$SOURCE_REPO/$SOURCE_REF/$SOURCE_PATH"
